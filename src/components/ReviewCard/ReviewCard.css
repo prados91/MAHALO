@@ -1,0 +1,40 @@
+.cardReview {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 18rem;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  .card-body {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  
+  .review {
+    border: none;
+    text-align: center;
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+  }
+  
+  .estrella {
+    color: #ffa62b;
+  }
+  
+  .calificacion {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
+  
+  

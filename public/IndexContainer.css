@@ -1,0 +1,10 @@
+.indexContainer__container {
+    /*min-height: calc(100vh - 172px - 35px);*/
+    min-height: 100vh;
+    background-color: transparent;
+}
+.indexContainer__container h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

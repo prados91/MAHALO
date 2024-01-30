@@ -1,0 +1,49 @@
+.container {
+    padding: 3.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.125rem;
+}
+
+.cardContainer {
+    /*display: grid;
+    grid-template-columns: repeat(3, 1fr);*/
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.botonCard {
+    background-color: var(--bgOrange);
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: .3125rem;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    transition: background-color var(--trTime) ease;
+}
+
+.botonCard:hover {
+    background-color: var(--bgBlue)
+}
+
+/*
+@media (max-width: 992px) {
+
+    .cardContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+
+    .cardContainer {
+        grid-template-columns: 1fr;
+    }
+}*/

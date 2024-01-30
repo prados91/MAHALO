@@ -20,24 +20,27 @@ import './App.css'
 function App() {
 
     return (
-        <CartProvider>
-            <BrowserRouter>
-                <NavBar />
-                <Routes>
-                    <Route exact path='/' element={<IndexContainer greeting={'MAHALO'} />} />
-                    <Route exact path='/category/:category' element={<ItemListContainer />} />
-                    <Route exact path='/item/:id' element={<ItemDetailContainer />} />
-                    <Route path="/cart" element={<CartContainer />} />
-                    <Route path="/form" element={<Form />} />
-                    <Route path="/about-us" element={<AboutUs />} />
-                    <Route path="/gallery" element={<GalleryContainer />} />
-                    <Route path="/faqs" element={<Faqs />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route exact path='*' element={<h1> 404 NOT FOUND </h1>} />
-                </Routes>
-                <Footer />
-            </BrowserRouter>
-        </CartProvider>
+        <div className='App'>
+
+            <CartProvider>
+                <BrowserRouter>
+                    <NavBar />
+                    <Routes>
+                        <Route exact path='/' element={<IndexContainer greeting={'MAHALO'} />} />
+                        <Route exact path='/category/:category' element={<ItemListContainer />} />
+                        <Route exact path='/item/:id' element={<ItemDetailContainer />} />
+                        <Route path="/cart" element={<CartContainer />} />
+                        <Route path="/form" element={<Form />} />
+                        <Route path="/about-us" element={<AboutUs />} />
+                        <Route path="/gallery" element={<GalleryContainer />} />
+                        <Route path="/faqs" element={<Faqs />} />
+                        <Route path="/contact" element={<Contact />} />
+                        <Route exact path='*' element={<h1> 404 NOT FOUND </h1>} />
+                    </Routes>
+                    <Footer />
+                </BrowserRouter>
+            </CartProvider>
+        </div>
 
     )
 }

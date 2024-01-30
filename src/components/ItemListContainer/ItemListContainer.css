@@ -1,10 +1,43 @@
- /* .itemListContainer__container {
-    min-height: calc(100vh - 172px - 35px);
-    background-color: #F9C56D;
- }
+  /**DECLARACIÓN DE VARIABLES**/
+  :root {
 
-  .itemListContainer__container h1{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }*/
+      --background: #F8F9FA;
+      --text-white: #F8F9FA;
+      --text-black: #000000;
+      --hover: #5386b9;
+      --button-back: #F9C56D;
+      --button-hover: #ff9c08;
+      --button-hover: #2775c4;
+  }
+
+  .itemListContainer__container {
+      /*min-height: calc(100vh - 172px - 35px);
+      /*background-color: #F9C56D;
+      background-color: #499FB6;
+      background-color: #FFA62B;*/
+      min-height: 100vh;
+      background-color: var(--background);
+  }
+
+  .itemListContainer__container h1 {
+      text-align: center;
+      /*margin-top: 20px;
+      margin-bottom: 20px;*/
+      margin: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: var(--background)
+  }
+
+  .banner-container {
+      height: 500px;
+      overflow: hidden;
+  }
+
+  .banner-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* Esto hace que la imagen ocupe todo el contenedor manteniendo la relación de aspecto */
+      display: block;
+  }

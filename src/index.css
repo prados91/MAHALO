@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    --bgOrange: #FF9C08;
+    /*#FFA62B;*/
+    --bgBlue: #499FB6;
+    --trTime: 0.5s
+}

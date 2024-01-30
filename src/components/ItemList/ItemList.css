@@ -1,4 +1,4 @@
-/*.itemList__card {
+.itemList__card {
     margin: 0 auto 40px auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -51,7 +51,8 @@
     border-top: 2px solid #dc0054;
     margin-bottom: 25px;
 }
-.img-fluid{
+
+.img-fluid {
     width: 100%;
 }
 
@@ -75,4 +76,8 @@
     box-shadow: 0 4px 8px 0 rgba(200, 16, 46, 0.7);
 }
 
-*/
+.ItemList__div {
+    position: absolute;
+    z-index: 1;
+    top: 100;
+}

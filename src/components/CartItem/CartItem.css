@@ -1,4 +1,4 @@
-  /*.cartItem__producto {
+  .cartItem__producto {
       display: flex;
       justify-content: space-between;
       padding: 10px;
@@ -59,4 +59,4 @@
       }
 
 
-  }*/
+  }

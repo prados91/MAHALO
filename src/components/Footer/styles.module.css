@@ -65,6 +65,7 @@
 .containerThree:hover {
     background-color: var(--bgBlue);
     transition-duration: var(--trTime);
+    
 }
 
 /* Whatsapp*/

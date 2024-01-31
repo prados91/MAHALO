@@ -1,4 +1,4 @@
-/*.cartContainer {
+.cartContainer {
     min-height: calc(100vh - 172px - 35px);
     display: flex;
     justify-content: center;
@@ -126,4 +126,4 @@
         margin-bottom: 5px;
 
     }
-}*/
+}

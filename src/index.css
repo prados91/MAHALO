@@ -2,8 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 * {
-    --bgOrange: #FF9C08;
-    /*#FFA62B;*/
+    /*--bgOrange: #FF9C08;*/
+    --bgOrange: #FFA62B;
     --bgBlue: #499FB6;
-    --trTime: 0.5s
+    --trTime: 0.5s;
+
+}
+
+.main-whatsapp {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: 999;
+}
+
+.main-whatsapp a img {
+    width: 70px;
+}
+
+.main-whatsapp a img:hover {
+    transform: scale(1.1);
 }

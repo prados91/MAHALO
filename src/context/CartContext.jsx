@@ -4,8 +4,11 @@ export const CartContext = createContext([]);
 
 export const CartProvider = ({ children }) => {
 
-    const [cart, setCart] = useState([]);
+    //const [cart, setCart] = useState([]);
+    // Obtén el valor inicial del carrito desde localStorage o utiliza un array vacío
+    const initialCart = JSON.parse(localStorage.getItem("cartLS")) || [];
 
+    const [cart, setCart] = useState(initialCart);
     const getCartFromLS = () => {
         const cartLSGet = JSON.parse(localStorage.getItem("cartLS"));
         cartLSGet && setCart(cartLSGet);
@@ -24,7 +27,7 @@ export const CartProvider = ({ children }) => {
             if (existingItem) {
                 const updateCart = cart.map(item => {
                     if (item.id === id) {
-                        return {...item, quantity: item.quantity + quantity};
+                        return { ...item, quantity: item.quantity + quantity };
                     }
                     return item;
                 });

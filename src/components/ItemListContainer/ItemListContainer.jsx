@@ -2,7 +2,6 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import ItemList from '../ItemList/ItemList'
 import Loading from '../Loading/Loading'
-import Fondo from '/fondo2.png'
 import { useParams } from 'react-router-dom'
 
 import { dbProducts } from '../../assets/db.js'
@@ -31,22 +30,32 @@ const ItemListContainer = () => {
         setTimeout(() => {
             // Este código se ejecutará después de x milisegundos
             setLoad(false);
-        }, 500);
+        }, 1000);
     }, [category]);
 
 
     return (
-        <div className="container">
-            <div className='row'>
-                {load ? (<Loading />) :
-                    (<>
-                        <h1>Productos</h1>
-                        <ItemList productos={productos} />
-                    </>
-                    )}
+        <div className="container-fluid">
+            <div className="bg-image">
+                <div className="contenedorTitulos">
+                    <h1>Nuestra tienda!</h1>
+                    <h2>{category.toUpperCase()}</h2>
+                </div>
             </div>
-
+            <div className="container second-div">
+                <div className='row'>
+                    {load ? (<Loading />) :
+                        (
+                            <>
+                                <ItemList productos={productos} />
+                            </>
+                        )
+                    }
+                </div>
+            </div>
         </div>
+
+
     )
 }
 

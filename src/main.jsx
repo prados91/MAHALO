@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client'
 import React from 'react'
 import App from './App.jsx'
-
+import LogoWhatsapp from '../src/assets/logo-whatsapp.png'
 
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <App />
         <div className="main-whatsapp">
             <a href={`https://api.whatsapp.com/send?phone=${phoneNumber}`} target="_blank"><img
-                src="./src/assets/logo-whatsapp.png" alt="Logo de WhatsApp" /></a>
+                src={LogoWhatsapp} alt="Logo de WhatsApp" /></a>
         </div>
     </React.StrictMode>,
 )

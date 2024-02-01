@@ -9,6 +9,7 @@
 
 }
 
+
 .main-whatsapp {
     position: fixed;
     bottom: 5px;
@@ -22,4 +23,13 @@
 
 .main-whatsapp a img:hover {
     transform: scale(1.1);
+}
+
+li {
+    list-style: none;
+}
+
+.routerLink {
+    text-decoration: none;
+    color: black;
 }

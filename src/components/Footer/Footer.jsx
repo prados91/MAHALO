@@ -18,9 +18,9 @@ const Footer = () => {
 
             <div className={styles.section}>
                 <h2 className={styles.footerTitle}>Links</h2>
-                <Link to="/about-us">Somos Mahalo</Link>
-                <Link to="/category/balanceboard">Nuestra tienda</Link>
-                <Link to="/faqs">Preguntas frecuentes</Link>
+                <Link className="routerLink" to="/about-us">Somos Mahalo</Link>
+                <Link  className="routerLink" to="/category/balanceboard">Nuestra tienda</Link>
+                <Link className="routerLink" to="/faqs">Preguntas frecuentes</Link>
             </div>
 
             <div className={styles.section}>

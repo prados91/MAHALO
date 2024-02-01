@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start; /* Cambia a flex-start para alinear a la izquierda */
     background-color: #ffffff;
     background-color: transparent;
     padding: 20px;
@@ -19,7 +19,7 @@
     flex-direction: column;
     padding: .9375rem;
     margin: .9375rem;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .card {
@@ -28,7 +28,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px 25px;
     gap: 20px;
 }
 

@@ -91,15 +91,15 @@ const CartContainer = () => {
                         >
                             Vaciar carrito
                         </button>
-                        <Link to="/form" >
+                        {/*<Link to="/form" >
                             <button className="cartContainer__btnForm">Finalizar compra</button>
-                        </Link>
+                        </Link>*/}
 
                         <button
-                            className=""
+                            className="cartContainer__btnForm"
                             onClick={() => { sendToMobile(cart, totalPrice) }}
                         >
-                            Whatsapp
+                            Finalizar compra
                         </button>
                     </div>
                 )}

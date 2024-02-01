@@ -3,7 +3,7 @@ import './Form.css'
 
 const Form = () => {
     return (
-        <div>Form</div>
+        <div>NO SERÁ NECESARIO AÚN</div>
     )
 }
 

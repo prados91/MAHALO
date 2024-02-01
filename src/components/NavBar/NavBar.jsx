@@ -53,7 +53,7 @@ const Navbar = () => {
                             </ul>
                         </li>
                     </ul>
-                    <div className="d-flex gap-2">
+                    <div className="d-flex gap-2 p-2">
                         <CartWidget />
                         <Link to={urlFace} target="_blank" rel="noreferrer"><i className="bi bi-facebook fs-4 navbar_icon "></i></Link>
                         <Link to={urlInst} target="_blank" rel="noreferrer"><i className="bi bi-instagram fs-4 navbar_icon "></i></Link>

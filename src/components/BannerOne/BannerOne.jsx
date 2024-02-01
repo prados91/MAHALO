@@ -1,5 +1,6 @@
 import React from "react";
 import "./BannerOne.css";
+import { Link } from "react-router-dom";
 
 const BannerOne = ({ greeting }) => {
     return (
@@ -7,7 +8,9 @@ const BannerOne = ({ greeting }) => {
             <div className="contenedorTitulos">
                 <h1>{greeting}</h1>
                 <h2>Subtítulo</h2>
-                <button className="bannerOne_button">Quiero mi tabla</button>
+                <Link to="/category/balanceboard">
+                    <button className="bannerOne_button">Quiero mi tabla</button>
+                </Link>
             </div>
         </div>
     );

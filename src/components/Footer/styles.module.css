@@ -14,6 +14,29 @@
     font-size: 1.5625rem;
 }
 
+.footerLinks {
+    padding: 10px;
+    border: none;
+    border-style: none;
+    height: min-content;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    width: fit-content;
+    text-decoration: underline;
+    transition: color 0.5s ease, text-decoration 0.5s ease;
+}
+
+.footerLinks:hover {
+    color: var(--bgOrange);
+}
+
+
+.listFooter {
+    margin: 0;
+    padding: 0;
+}
+
 .section {
     display: flex;
     flex-direction: column;
@@ -64,7 +87,7 @@
 .containerThree:hover {
     background-color: var(--bgBlue);
     transition-duration: var(--trTime);
-    
+
 }
 
 /* Whatsapp*/

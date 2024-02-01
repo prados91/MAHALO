@@ -3,7 +3,7 @@ import './Gallery.css'
 
 const Gallery = () => {
     return (
-        <div>Gallery</div>
+        <div>GALERÍA DE FOTOS. RESTA DEFINIR EL DISEÑO DE LA MISMA</div>
     )
 }
 

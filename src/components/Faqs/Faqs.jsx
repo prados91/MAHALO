@@ -3,7 +3,7 @@ import './Faqs.css'
 
 const Faqs = () => {
   return (
-    <div>Faqs</div>
+    <div>AQUI IRAN LAS PREGUNTAS MÁS FRECUENTES</div>
   )
 }
 

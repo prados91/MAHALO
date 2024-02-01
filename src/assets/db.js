@@ -68,7 +68,7 @@ export const dbProducts = [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
         price: 25000,
         stock: 2,
-        image: ["remera.png", "remera.png", , "remera.png"],
+        image: ["remera.png", "remera.png", "remera.png"],
     },
     {
         id: "8",
@@ -78,7 +78,7 @@ export const dbProducts = [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
         price: 48500,
         stock: 3,
-        image: ["remera.png", "remera.png", , "remera.png"],
+        image: ["remera.png", "remera.png", "remera.png"],
     },
     {
         id: "9",
@@ -88,7 +88,7 @@ export const dbProducts = [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
         price: 70000,
         stock: 2,
-        image: ["remera.png", "remera.png", , "remera.png"],
+        image: ["remera.png", "remera.png", "remera.png"],
     },
     {
         id: "10",
@@ -98,7 +98,7 @@ export const dbProducts = [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
         price: 7500,
         stock: 1,
-        image: ["remera.png", "remera.png", , "remera.png"],
+        image: ["remera.png", "remera.png", "remera.png"],
     },
     {
         id: "11",
@@ -118,7 +118,7 @@ export const dbProducts = [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
         price: 25000,
         stock: 2,
-        image: ["longboard.png", "longboard.png", , "longboard.png"],
+        image: ["longboard.png", "longboard.png", "longboard.png"],
     },
     {
         id: "13",
@@ -128,7 +128,7 @@ export const dbProducts = [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
         price: 48500,
         stock: 3,
-        image: ["longboard.png", "longboard.png", , "longboard.png"],
+        image: ["longboard.png", "longboard.png", "longboard.png"],
     },
     {
         id: "14",
@@ -138,7 +138,7 @@ export const dbProducts = [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
         price: 70000,
         stock: 2,
-        image: ["longboard.png", "longboard.png", , "longboard.png"],
+        image: ["longboard.png", "longboard.png", "longboard.png"],
     },
     {
         id: "15",
@@ -148,6 +148,6 @@ export const dbProducts = [
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
         price: 7500,
         stock: 1,
-        image: ["longboard.png", "longboard.png", , "longboard.png"],
+        image: ["longboard.png", "longboard.png", "longboard.png"],
     },
 ];

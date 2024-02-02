@@ -53,13 +53,15 @@ export const dbProducts = [
     {
         id: "6",
         title: "Indumentaria 1",
-        category:"clothes",
+        category: "clothes",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
         price: 11000,
         stock: 2,
         image: ["remera.png", "remera.png", "remera.png"],
     },
+];
+/*,
     {
         id: "7",
         title: "Indumentaria 2",
@@ -151,3 +153,4 @@ export const dbProducts = [
         image: ["longboard.png", "longboard.png", "longboard.png"],
     },
 ];
+*/

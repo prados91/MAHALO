@@ -1,16 +1,18 @@
 .container {
-    padding: 3.125rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3.125rem;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    margin-bottom: 3.125rem;
 }
 
 .cardContainer {
-    /*display: grid;
-    grid-template-columns: repeat(3, 1fr);*/
     display: flex;
-    gap: 30px;
+    gap: 16px;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 3rem;
@@ -27,23 +29,14 @@
     margin-top: 10px;
     text-align: center;
     transition: background-color var(--trTime) ease;
+    border-style: none;
+
 }
 
 .botonCard:hover {
-    background-color: var(--bgBlue)
+    background-color: var(--bgBlue);
 }
 
-/*
-@media (max-width: 992px) {
-
-    .cardContainer {
-        grid-template-columns: repeat(2, 1fr);
-    }
+.card-item-container{
+    padding: 10px;
 }
-
-@media (max-width: 576px) {
-
-    .cardContainer {
-        grid-template-columns: 1fr;
-    }
-}*/

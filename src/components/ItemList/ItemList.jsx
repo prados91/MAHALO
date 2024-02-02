@@ -1,7 +1,5 @@
 import React from 'react'
-import Item from '../Item/Item'
-
-import './ItemList.css'
+import IndexItem from '../IndexItem/IndexItem';
 
 const ItemList = ({ productos }) => {
     return (
@@ -10,11 +8,10 @@ const ItemList = ({ productos }) => {
                 {
                     productos.map((p) => {
                         return (
-                            <Item
+                            <IndexItem
                                 key={p.id}
                                 id={p.id}
                                 title={p.title}
-                                price={p.price}
                                 image={p.image}
                             />
                         )

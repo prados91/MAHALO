@@ -1,6 +1,5 @@
 import React from "react";
 import "./Index.css";
-import ItemListContainer from "../ItemListContainer/ItemListContainer";
 import BannerOne from "../BannerOne/BannerOne";
 import BannerTwo from "../BannerTwo/BannerTwo";
 import IndexItemContainer from "../IndexItemContainer/IndexItemContainer";

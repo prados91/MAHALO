@@ -1,4 +1,4 @@
-.itemList__card {
+/*.itemList__card {
     margin: 0 auto 40px auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -80,4 +80,4 @@
     position: absolute;
     z-index: 1;
     top: 100;
-}
+}*/

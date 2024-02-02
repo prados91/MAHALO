@@ -1,34 +1,39 @@
-/*:root {
-    --bgOrange: #FFA62B;
-    --bgBlue: #499FB6;
-}
-*/
 .navbar_icon {
     color: var(--bgOrange);
     border: none;
-    background-color: #F8F9FA;
 }
-
 
 .navbar_iconRS {
     color: var(--bgBlue);
 }
 
 .navbar_img {
-    height: 75px;
+    height: auto;
     width: auto;
     border: none;
-    background-color: #F8F9FA;
-    margin-left: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
+.navbar__container {
+    background-color: #00000070;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-social {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 16px;
+    gap: 16px;
+    margin-left: 16px;
+}
 
 a.nav-link {
     padding: 10px;
     border: none;
     border-style: none;
     height: min-content;
-    color: black;
+    color: var(--bgWhite);
     font-size: 16px;
     text-align: center;
     width: fit-content;
@@ -54,6 +59,8 @@ a.nav-link.nav_active {
 
 button.navbar-toggler {
     background-color: rgb(194, 194, 194);
+    background-color: var(--bgOrange);
+    margin-right: 16px;
 }
 
 .collapse.navbar-collapse ul {

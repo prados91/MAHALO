@@ -1,5 +1,15 @@
 import React from 'react'
 import './Contact.css'
+const questionA = '¿El balanceboard viene con garantía?'
+const questionB = '¿Hacen envíos a todo el país?'
+const questionC = '¿Cuáles son los métodos de pago?'
+const questionD = '¿Las tablas son totalmente personalizables?'
+const questionE = '¿Cuánto peso puede soportar la tabla?'
+const questionF = '¿Debo retirar mi tabla?'
+const questionG = '¿Hay precauciones a tener en cuenta en el uso de la tabla con los niños?'
+const questionH = '¿Hay alguna diferencia entre las tablas o sus medidas?'
+const questionI = '¿De qué material está hecho nuestras tablas?'
+
 
 function Contact(){
     return(
@@ -9,7 +19,7 @@ function Contact(){
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        <strong>¿El balanceboard viene con garantía?</strong></button>
+                        <strong>{questionA}</strong></button>
                     </h2>
                     <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show">
                     <div className="accordion-body">
@@ -21,7 +31,7 @@ function Contact(){
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        <strong>¿Hacen envíos a todo el país?</strong>
+                        <strong>{questionB}</strong>
                     </button>
                     </h2>
                     <div id="panelsStayOpen-collapseTwo"className="accordion-collapse collapse">
@@ -34,7 +44,7 @@ function Contact(){
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                        <strong>¿Cuáles son los métodos de pago?</strong>
+                        <strong>{questionC}</strong>
                     </button>
                     </h2>
                     <div id="panelsStayOpen-collapseThree"className="accordion-collapse collapse">
@@ -47,7 +57,7 @@ function Contact(){
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                        <strong>¿Las tablas son totalmente personalizables?</strong>
+                        <strong>{questionD}</strong>
                     </button>
                     </h2>
                     <div id="panelsStayOpen-collapseFour"className="accordion-collapse collapse">
@@ -60,7 +70,7 @@ function Contact(){
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-                        <strong>¿Cuánto peso puede soportar la tabla?</strong>
+                        <strong>{questionE}</strong>
                     </button>
                     </h2>
                     <div id="panelsStayOpen-collapseFive"className="accordion-collapse collapse">
@@ -73,7 +83,7 @@ function Contact(){
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
-                        <strong>¿Debo retirar mi tabla?</strong>
+                        <strong>{questionF}</strong>
                     </button>
                     </h2>
                     <div id="panelsStayOpen-collapseSix"className="accordion-collapse collapse">
@@ -86,7 +96,7 @@ function Contact(){
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
-                        <strong>¿Hay precauciones a tener en cuenta en el uso de la tabla con los niños?</strong>
+                        <strong>{questionG}</strong>
                     </button>
                     </h2>
                     <div id="panelsStayOpen-collapseSeven"className="accordion-collapse collapse">
@@ -99,7 +109,7 @@ function Contact(){
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
-                        <strong>¿Hay alguna diferencia entre las tablas o sus medidas?</strong>
+                        <strong>{questionH}</strong>
                     </button>
                     </h2>
                     <div id="panelsStayOpen-collapseEight"className="accordion-collapse collapse">
@@ -112,7 +122,7 @@ function Contact(){
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false" aria-controls="panelsStayOpen-collapseNine">
-                        <strong>¿De qué material está hecho nuestras tablas?</strong>
+                        <strong>{questionI}</strong>
                     </button>
                     </h2>
                     <div id="panelsStayOpen-collapseNine" className="accordion-collapse collapse">

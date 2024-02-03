@@ -1,5 +1,5 @@
 import React from "react";
-import './questions.css'
+import './questions.css';
 
 function Questions(){
     return(

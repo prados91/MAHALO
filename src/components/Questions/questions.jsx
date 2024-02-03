@@ -91,7 +91,7 @@ function Questions(){
                     </h2>
                     <div id="panelsStayOpen-collapseSeven"className="accordion-collapse collapse">
                         <div className="accordion-body">
-                        <strong>Si es su primera vez con una balanceboard</strong>se recomienda que al comenzar use calzado adecuado, evitar movimientos bruscos para evitar accidentes, sujetarse de una superficie firme. <strong>Si es usado por niños, usar bajo la supervisión de un adulto.</strong>
+                        <strong>Si es su primera vez con una balanceboard </strong>se recomienda que al comenzar use calzado adecuado, evitar movimientos bruscos para evitar accidentes, sujetarse de una superficie firme. <strong>Si es usado por niños, usar bajo la supervisión de un adulto.</strong>
                         </div>
                     </div>
                 </div>

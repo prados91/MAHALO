@@ -12,7 +12,6 @@ import GalleryContainer from './components/GalleryContainer/GalleryContainer.jsx
 import Faqs from './components/Faqs/Faqs.jsx'
 import Contact from './components/Contact/Contact.jsx';
 import Footer from './components/Footer/Footer.jsx';
-import Questions from './components/Questions/questions.jsx';
 import { CartProvider } from './context/CartContext.jsx';
 
 import './App.css'

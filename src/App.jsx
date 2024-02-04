@@ -25,6 +25,7 @@ function App() {
                     <Route path="/contact" element={<Contact />} />
                     <Route exact path='*' element={<h1> 404 NOT FOUND </h1>} />
                 </Routes>
+                
                 <Footer />
             </BrowserRouter>
 

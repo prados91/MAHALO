@@ -22,6 +22,7 @@ function App() {
                     <Route path="/faqs" element={<Faqs />} />
                     <Route exact path='*' element={<h1> 404 NOT FOUND </h1>} />
                 </Routes>
+                
                 <Footer />
             </BrowserRouter>
 

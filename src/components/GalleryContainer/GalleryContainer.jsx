@@ -4,7 +4,7 @@ import './GalleryContainer.css'
 
 const GalleryContainer = () => {
     return (
-        <div><Gallery /></div>
+        <div className='gallery_container'><Gallery /></div>
     )
 }
 

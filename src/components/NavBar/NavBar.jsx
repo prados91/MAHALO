@@ -31,9 +31,6 @@ const Navbar = () => {
                         <li className="nav-item">
                             <NavLink to='/faqs' className={({ isActive }) => isActive ? "nav-link nav_active" : "nav-link"}>Preguntas frecuentes</NavLink>
                         </li>
-                        <li className="nav-item">
-                            <NavLink to='/contact' className={({ isActive }) => isActive ? "nav-link nav_active" : "nav-link"}>Contactanos</NavLink>
-                        </li>
                     </ul>
                     <div className="navbar-social">
                         <Link to={urlFace} target="_blank" rel="noreferrer"><i className="bi bi-facebook fs-4 navbar_icon "></i></Link>

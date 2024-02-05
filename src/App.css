@@ -1,5 +1,3 @@
-
-
 * {
     /*--bgOrange: #FF9C08;*/
     --bgOrange: #FFA62B;
@@ -14,6 +12,7 @@
     list-style: none;
 
 }
+
 .App {
     /*font-family: 'Oxygen', sans-serif;*/
     font-family: 'Roboto', sans-serif;
@@ -35,15 +34,21 @@
 }
 
 .whatsapp-link {
-    background-color: var(--bgWhite); /* Fondo blanco predeterminado */
-    padding: 10px; /* Ajusta según tus preferencias */
-    border-radius: 50%; /* Borde circular */
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Pequeño sombreado en el borde */
-    transition: background-color var(--trTime) ease; /* Transición suave */
+    background-color: var(--bgOrange);
+    /* Fondo blanco predeterminado */
+    padding: 10px;
+    /* Ajusta según tus preferencias */
+    border-radius: 50%;
+    /* Borde circular */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    /* Pequeño sombreado en el borde */
+    transition: background-color var(--trTime) ease;
+    /* Transición suave */
 }
 
 .whatsapp-link:hover {
-    background-color: var(--bgOrange); /* Color azul al pasar el ratón */
+    background-color: var(--bgBlue);
+    /* Color azul al pasar el ratón */
 }
 
 .routerLink {

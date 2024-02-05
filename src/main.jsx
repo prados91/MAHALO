@@ -10,19 +10,20 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const phoneNumber = "5491124752671";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-    <div className="main-whatsapp">
-      <a
-        href={`https://api.whatsapp.com/send?phone=${phoneNumber}`}
-        target="_blank"
-        rel="noReferrer"
-        className="whatsapp-container"
-      >
-        <div className="whatsapp-link">
-          <FaWhatsapp size={40} color="#499FB6" />
+    <React.StrictMode>
+        <App />
+        <div className="main-whatsapp">
+            <a
+                href={`https://api.whatsapp.com/send?phone=${phoneNumber}`}
+                target="_blank"
+                rel="noReferrer"
+                className="whatsapp-container"
+            >
+                <div className="whatsapp-link">
+                    <FaWhatsapp size={40} color="#F8F9FA" />
+                </div>
+            </a>
         </div>
-      </a>
-    </div>
-  </React.StrictMode>
+    </React.StrictMode>
 );
+//#499FB6

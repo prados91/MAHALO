@@ -6,10 +6,12 @@ import IndexItemContainer from "../IndexItemContainer/IndexItemContainer";
 import ReviewCardCointaner from "../ReviewCardContainer/ReviewCardCointaner";
 
 const Index = ({ greeting }) => {
+    const title = "Diseños hechos a mano"
+    const subtitle = "Utilizamos marcadores de acrilico para darle un estilo unico a cada tabla"
     return (
         <>
             <BannerOne greeting={greeting} />
-            <BannerTwo />
+            <BannerTwo title={title} subtitle={subtitle} />
             <IndexItemContainer />
             <ReviewCardCointaner />
         </>

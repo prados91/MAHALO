@@ -1,7 +1,7 @@
 import React from 'react'
 import IndexItem from '../IndexItem/IndexItem';
 
-const ItemList = ({ productos }) => {
+const IndexList = ({ productos }) => {
     return (
         <div className="container-fluid">
             <div className="row justify-content-center">
@@ -22,4 +22,4 @@ const ItemList = ({ productos }) => {
     );
 };
 
-export default ItemList
+export default IndexList

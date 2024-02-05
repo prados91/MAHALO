@@ -1,7 +1,7 @@
 import React from 'react'
 import { products } from '../../assets/db.js'
 import './IndexItemContainer.css'
-import ItemList from '../ItemList/ItemList'
+import IndexList from '../IndexLIst/IndexList.jsx'
 
 const IndexItemContainer = () => {
 
@@ -16,14 +16,14 @@ const IndexItemContainer = () => {
 
     return (
 
-        <div className="container text-center d-flex flex-column align-items-center">
-            <h2 className="titulo">¡Contamos con variedad de modelos!</h2>
+        <div className="container text-center d-flex flex-column align-items-center indexItemContainer-container">
+            <h2 className="titulo">¡Podes elegir de nuestros diseños!</h2>
             <div className="row no-margin-row" >
-                <ItemList productos={products} />
+                <IndexList productos={products} />
             </div>
-            <button className="botonCard" onClick={() => { sendToMobile() }}>
+            {/* <button className="botonCard" onClick={() => { sendToMobile() }}>
                 Quiero saber más
-            </button>
+            </button> */}
         </div>
     )
 }

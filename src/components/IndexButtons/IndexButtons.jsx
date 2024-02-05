@@ -1,20 +1,25 @@
 import React from 'react'
 
 import { desingButtons } from '../../assets/db.js'
+import ButtonsDesign from '../ButtonsDesign/ButtonsDesign.jsx'
+
+import './IndexButtons.css'
 
 const IndexButtons = () => {
 
     return (
-        <div className='container-fluid d-flex '>
-            <div className="row justify-content-center">
+        <div className="container btn_container">
+            <div className="row justify-content-center gap-3">
                 {
                     desingButtons.map((p) => {
                         return (
-                            <div className="col-10 col-sm-6 col-md-4 col-lg-4 card-item-container">
-                                <div className="card card-custom ">
-                                    <img src={`/images/logos/${p.image}`} alt={p.name} className="card-img-top" />
-                                </div>
-                            </div >
+                            <ButtonsDesign
+                                key={p.id}
+                                id={p.id}
+                                title={p.title}
+                                image={p.image}
+                                imageH={p.imageH}
+                            />
                         )
                     })
                 }

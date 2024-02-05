@@ -1,6 +1,31 @@
-.buttons_container {
-    /*min-height: calc(100vh - 172px - 35px);*/
-    /*min-height: 100vh;*/
+.indexbtn_container {
+    margin-top: 0;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.indexbtn_h2 {
+    margin: 16px;
+}
+
+.index_btnMore {
+    background-color: var(--bgOrange);
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: .3125rem;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    transition: background-color var(--trTime) ease;
+    border-style: none;
+    width: auto;
+    color: var(--bgWhite);
+}
+
+.index_btnMore:hover {
+    background-color: var(--bgBlue);
 }

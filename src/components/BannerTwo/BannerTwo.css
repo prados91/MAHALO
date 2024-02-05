@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     height: 75vh;
-    background-image: url("/fondo2.png");
+    background-image: url("/images/background/bg-2.png");
     background-size: cover;
     display: flex;
     justify-content: flex-end; /* Ajustado para alinear el contenido hacia la derecha */

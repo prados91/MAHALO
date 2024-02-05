@@ -189,3 +189,25 @@ export const question = [
 ];
 
 */
+export const desingButtons = [
+    {
+        title: "FISH",
+        image: "Fish.svg"
+    },
+    {
+        title: "FLAT",
+        image: "Flat.svg"
+    },
+    {
+        title: "ROUNDED",
+        image: "Rounded.svg"
+    },
+    {
+        title: "SNOW",
+        image: "Snow.svg"
+    },
+    {
+        title: "SQUARE",
+        image: "Square.svg"
+    }
+]

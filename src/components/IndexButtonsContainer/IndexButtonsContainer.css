@@ -1,0 +1,6 @@
+.buttons_container {
+    /*min-height: calc(100vh - 172px - 35px);*/
+    /*min-height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+}

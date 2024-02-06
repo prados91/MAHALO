@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start; /* Cambia a flex-start para alinear a la izquierda */
+    align-items: flex-start;
+    /* Cambia a flex-start para alinear a la izquierda */
     background-color: #ffffff;
     background-color: transparent;
     padding: 20px;

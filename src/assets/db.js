@@ -137,3 +137,5 @@ export const desingButtons = [
     { id: 4, title: "SNOW", image: "Snow.svg", imageH: "snow.png" },
     { id: 5, title: "SQUARE", image: "Square.svg", imageH: "square.png" },
 ];
+
+export const phoneNumber = "5492233425634"

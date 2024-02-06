@@ -7,12 +7,34 @@ import GalleryContainer from './components/GalleryContainer/GalleryContainer.jsx
 import Faqs from './components/Faqs/Faqs.jsx'
 import Footer from './components/Footer/Footer.jsx';
 
-import './App.css'
+/*import './App.css'*/
 
 function App() {
 
     return (
-        <div className='App'>
+        <BrowserRouter>
+            <div className='App' style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+                <NavBar />
+                <Routes>
+                    <Route exact path='/' element={<IndexContainer greeting={'MAHALO'} subGreeting={'Desafiando el balance'} />} />
+                    <Route path="/about-us" element={<AboutUs />} />
+                    <Route path="/gallery" element={<GalleryContainer />} />
+                    <Route path="/faqs" element={<Faqs />} />
+                    <Route exact path='*' element={<h1> 404 NOT FOUND </h1>} />
+                </Routes>
+                <div>
+
+                    <Footer />
+                </div>
+            </div>
+        </BrowserRouter>
+
+    )
+}
+
+export default App;
+
+/*<div className='App'>
             <BrowserRouter>
                 <NavBar />
                 <Routes>
@@ -27,8 +49,4 @@ function App() {
             </BrowserRouter>
 
         </div>
-
-    )
-}
-
-export default App;
+*/ 

@@ -3,7 +3,7 @@ import './AboutUs.css'
 
 const AboutUs = () => {
     return (
-        <div>DESCRIPCIÓN DE MAHALO</div>
+        <div className='about_container'>DESCRIPCIÓN DE MAHALO</div>
     )
 }
 

@@ -1,5 +1,9 @@
 .container_main {
-    min-height: calc(100vh-280px);
+    min-height: calc(100vh - 210px);
+}
+
+.faqs_container {
+    min-height: calc(100vh - 210px);
 }
 
 .accordion_container {

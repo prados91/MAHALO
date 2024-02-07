@@ -8,14 +8,15 @@ import { imageGallery } from '../../assets/db.js'
 const Gallery = () => {
 
     return (
-        <div style={{ width: "70vh", marginTop: "80px" }}>
+        <div>
             <ReactImageGallery items={imageGallery}
+                showThumbnails={false}
                 showPlayButton={false}
                 showFullscreenButton={false}
                 showBullets={true}
                 autoPlay={false}
                 slideInterval={3000}
-                slideDuration={1000}
+                slideDuration={500}
                 thumbnailPosition='bottom'
             />
         </div>

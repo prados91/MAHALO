@@ -37,7 +37,7 @@ const GalleryContainer = () => {
             />
         </div>*/
 
-        <div className=' container-fluid gallery_container' style={{ width: "70vh", marginTop: "80px" }}>
+        <div className='container' style={{ width: "70vh", marginTop: "80px" }}>
             <Gallery />
         </div>
     )

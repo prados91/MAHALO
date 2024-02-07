@@ -1,0 +1,43 @@
+.cardContainer {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.botonCard {
+    background-color: var(--bgOrange);
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: .3125rem;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    transition: background-color var(--trTime) ease;
+    border-style: none;
+
+}
+
+.botonCard:hover {
+    background-color: var(--bgBlue);
+}
+
+.card-item-container {
+    padding: 0px;
+}
+
+.indexItemContainer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.125rem;
+    flex-wrap: wrap;
+
+}
+
+.titulo{
+    margin-bottom: 3rem;
+}

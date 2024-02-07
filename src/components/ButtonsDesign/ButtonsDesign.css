@@ -1,0 +1,31 @@
+.btn-xl {
+    padding: 10px;
+    font-size: 24px;
+    line-height: 1.33;
+    font-size: 1.5rem;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+   /* padding: 6px 0px;*/
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--bgOrange);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    transition: transform var(--trTime) ease-in-out;
+}
+
+.btn-circle:hover{
+    transform: scale(1.6);
+    padding: 0;
+}
+
+.btn-circle img {
+    width: auto;
+    height: auto;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}

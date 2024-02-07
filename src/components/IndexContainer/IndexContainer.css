@@ -1,7 +1,7 @@
-/*.indexContainer__container {
-    /*min-height: calc(100vh - 172px - 35px);
-    min-height: 100vh;
-    background-color: white;
+.indexContainer__container {
+    min-height: calc(100vh - 210px);
+    display: flex;
+    flex-direction: column;
 }
 
 .indexContainer__container h1 {
@@ -9,4 +9,3 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-*/

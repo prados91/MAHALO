@@ -7,27 +7,22 @@ import GalleryContainer from './components/GalleryContainer/GalleryContainer.jsx
 import Faqs from './components/Faqs/Faqs.jsx'
 import Footer from './components/Footer/Footer.jsx';
 
-import './App.css'
+/*import './App.css'*/
 
 function App() {
 
     return (
-        <div className='App'>
-            <BrowserRouter>
-                <NavBar />
-                <Routes>
-                    <Route exact path='/' element={<IndexContainer greeting={'MAHALO'} />} />
-                    <Route path="/about-us" element={<AboutUs />} />
-                    <Route path="/gallery" element={<GalleryContainer />} />
-                    <Route path="/faqs" element={<Faqs />} />
-                    <Route exact path='*' element={<h1> 404 NOT FOUND </h1>} />
-                </Routes>
-                
-                <Footer />
-            </BrowserRouter>
-
-        </div>
-
+        <BrowserRouter>
+            <NavBar />
+            <Routes>
+                <Route exact path='/' element={<IndexContainer greeting={'MAHALO'} subGreeting={'Desafiando el balance'} />} />
+                <Route path="/about-us" element={<AboutUs />} />
+                <Route path="/gallery" element={<GalleryContainer />} />
+                <Route path="/faqs" element={<Faqs />} />
+                <Route exact path='*' element={<h1> 404 NOT FOUND </h1>} />
+            </Routes>
+            <Footer />
+        </BrowserRouter>
     )
 }
 

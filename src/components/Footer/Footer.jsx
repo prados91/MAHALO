@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import styles from "./footer.module.css";
 
+import { phoneNumber } from "../../assets/db.js";
 
 const Footer = () => {
     const urlFace = "https://www.facebook.com/Mahaloaarg?view_public_for=103903104810380"
     const urlInst = "https://www.instagram.com/mahalo.mdp/"
-    const urlWhatsapp = "https://api.whatsapp.com/send?phone=5491124752671"
+    const urlWhatsapp = "https://api.whatsapp.com/send?phone=" + phoneNumber
     return (
         <footer className={styles.footer}>
             <div className={styles.section}>

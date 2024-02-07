@@ -1,7 +1,8 @@
 import React from 'react'
 import './BannerTwo.css'
 
-const BannerTwo = ({title,subtitle}) => {
+const BannerTwo = ({ title, subtitle }) => {
+
     return (
         <div className="bg-image2">
             <div className='contenedorTitulos2'>
@@ -12,8 +13,6 @@ const BannerTwo = ({title,subtitle}) => {
     )
 }
 
-export default BannerTwo
-
 /*
 <div className="bg-image2">
             <div className='contenedorTitulos2'>
@@ -22,3 +21,6 @@ export default BannerTwo
             </div>
         </div>
 */
+
+export default BannerTwo
+

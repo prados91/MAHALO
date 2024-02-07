@@ -8,7 +8,8 @@ const ButtonsDesign = ({ id, title, image, imageH }) => {
         <div className="col">
             <button type="button" className="btn-circle btn-xl" onMouseOver={() => setIsHovered(true)}
                 onMouseOut={() => setIsHovered(false)}>
-                <img src={isHovered ? `/images/logos/${imageH}` : `/images/logos/${image}`} alt={title} className="img-fluid" />
+                {/* <img src={isHovered ? `/images/logos/${imageH}` : `/images/logos/${image}`} alt={title} className="img-fluid" /> */}
+                <img src={`/images/logos/${image}`} alt={title} className="card-img-top" />
             </button >
             <p>{title}</p>
         </div>
@@ -16,5 +17,3 @@ const ButtonsDesign = ({ id, title, image, imageH }) => {
 }
 
 export default ButtonsDesign
-//<img src={`/images/logos/${image}`} alt={title} className="card-img-top" />
-//src={isHovered ? hoverImage : defaultImage}<img src={`/images/logos/${image}`} alt={title} className="img-fluid" />

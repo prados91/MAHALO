@@ -1,5 +1,4 @@
-* {
-    /*--bgOrange: #FF9C08;*/
+ * {
     --bgOrange: #FFA62B;
     --bgBlue: #499FB6;
     --bgWhite: #F8F9FA;
@@ -12,9 +11,7 @@
 }
 
 .App {
-    /*font-family: 'Oxygen', sans-serif;*/
     font-family: 'Roboto', sans-serif;
-    /*font-family: 'Familjen Grotesk', sans-serif;*/
     min-height: 100vh;
 }
 

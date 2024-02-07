@@ -137,3 +137,101 @@ export const desingButtons = [
     { id: 4, title: "SNOW", image: "Snow.svg", imageH: "snow.png" },
     { id: 5, title: "SQUARE", image: "Square.svg", imageH: "square.png" },
 ];
+<<<<<<< HEAD
+=======
+
+export const phoneNumber = "5492233425634";
+
+export const imageGallery = [
+    {
+        original: "/images/gallery/0001.jpg",
+        thumbnail: "/images/gallery/0001.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px",
+    },
+    {
+        original: "/images/gallery/0002.jpg",
+        thumbnail: "/images/gallery/0002.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px",
+    },
+    {
+        original: "/images/gallery/0003.jpg",
+        thumbnail: "/images/gallery/0003.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px",
+    },
+    {
+        original: "/images/gallery/0004.jpg",
+        thumbnail: "/images/gallery/0004.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px",
+    },
+    {
+        original: "/images/gallery/0005.jpg",
+        thumbnail: "/images/gallery/0005.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px"
+    },
+    {
+        original: "/images/gallery/0006.jpg",
+        thumbnail: "/images/gallery/0006.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px"
+    },
+    {
+        original: "/images/gallery/0007.jpg",
+        thumbnail: "/images/gallery/0007.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px"
+    },
+    {
+        original: "/images/gallery/0008.jpg",
+        thumbnail: "/images/gallery/0008.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px"
+    },
+    {
+        original: "/images/gallery/0009.jpg",
+        thumbnail: "/images/gallery/0009.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px",
+    },
+    {
+        original: "/images/gallery/0010.jpg",
+        thumbnail: "/images/gallery/0010.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px",
+    },
+    {
+        original: "/images/gallery/0011.jpg",
+        thumbnail: "/images/gallery/0011.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px",
+    },
+    {
+        original: "/images/gallery/0012.jpg",
+        thumbnail: "/images/gallery/0012.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px",
+    },
+    {
+        original: "/images/gallery/0013.jpg",
+        thumbnail: "/images/gallery/0013.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px"
+    },
+    {
+        original: "/images/gallery/0014.jpg",
+        thumbnail: "/images/gallery/0014.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px"
+    },
+    {
+        original: "/images/gallery/0015.jpg",
+        thumbnail: "/images/gallery/0015.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "75px"
+    },
+];
+>>>>>>> a9b32e4c6a08eb7ce3573b25c4295aeda4d3d92f

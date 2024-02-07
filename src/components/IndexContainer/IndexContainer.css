@@ -1,6 +1,5 @@
 .indexContainer__container {
-    /*min-height: calc(100vh - 172px - 35px);*/
-    min-height: 100vh;
+    min-height: calc(100vh - 210px);
     display: flex;
     flex-direction: column;
 }

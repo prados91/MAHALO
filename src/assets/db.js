@@ -138,4 +138,55 @@ export const desingButtons = [
     { id: 5, title: "SQUARE", image: "Square.svg", imageH: "square.png" },
 ];
 
-export const phoneNumber = "5492233425634"
+export const phoneNumber = "5492233425634";
+
+export const imageGallery = [
+    {
+        original: "/images/gallery/1.jpg",
+        thumbnail: "/images/gallery/1.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "50px",
+    },
+    {
+        original: "/images/gallery/2.jpg",
+        thumbnail: "/images/gallery/2.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "50px",
+    },
+    {
+        original: "/images/gallery/3.jpg",
+        thumbnail: "/images/gallery/3.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "50px",
+    },
+    {
+        original: "/images/gallery/4.jpg",
+        thumbnail: "/images/gallery/4.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "50px",
+    },
+    {
+        original: "/images/gallery/5.jpg",
+        thumbnail: "/images/gallery/5.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "50px"
+    },
+    {
+        original: "/images/gallery/6.jpg",
+        thumbnail: "/images/gallery/6.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "50px"
+    },
+    {
+        original: "/images/gallery/1.jpg",
+        thumbnail: "/images/gallery/1.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "50px"
+    },
+    {
+        original: "/images/gallery/2.jpg",
+        thumbnail: "/images/gallery/2.jpg",
+        thumbnailHeight: "50px",
+        thumbnailWidth: "50px"
+    },
+];

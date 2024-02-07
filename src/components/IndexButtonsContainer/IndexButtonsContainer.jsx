@@ -2,14 +2,15 @@ import React from 'react'
 import './IndexButtonsContainer.css'
 import IndexButtons from '../IndexButtons/IndexButtons'
 
+import { phoneNumber } from '../../assets/db.js'
+
 const IndexButtonsContainer = () => {
 
     const sendToMobile = () => {
 
         const mensaje = `¡HOLA!\nQuisiera información sobre los diseños!`;
-        const numeroDeTelefono = '5491124752671';
         // Construir la URL de WhatsApp
-        const urlWhatsApp = `https://api.whatsapp.com/send?phone=${numeroDeTelefono}&text=${encodeURIComponent(mensaje)}`;
+        const urlWhatsApp = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(mensaje)}`;
         window.open(urlWhatsApp, '_blank');
     }
     return (

@@ -19,12 +19,6 @@
     /*font-family: 'Familjen Grotesk', sans-serif;*/
 }
 
-body,
-.App {
-
-    min-height: 100vh;
-}
-
 .main-whatsapp {
     position: fixed;
     bottom: 150px;

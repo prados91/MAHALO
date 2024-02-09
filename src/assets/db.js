@@ -4,7 +4,7 @@ export const products = [
         title: "BalanceBoard 1",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
-        image: ["board1.png", "boardH.png", "board1.png"],
+        image: ["design1.jpg", "card1.jpg"],
     },
     {
         id: "2",
@@ -12,23 +12,23 @@ export const products = [
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
 
-        image: ["board2.png", "boardH.png", "board2.png"],
+        image: ["design2.jpg", "card2.jpg"],
     },
     {
         id: "3",
         title: "BalanceBoard 3",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
-        image: ["board3.png", "boardH.png", "board3.png"],
+        image: ["design3.jpg", "card3.jpg"],
     },
     {
         id: "4",
         title: "BalanceBoard 4",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
-        image: ["board4.png", "boardH.png", "board4.png"],
+        image: ["design4.jpg", "card4.jpg"],
     },
-
+    /*
     {
         id: "5",
         title: "BalanceBoard 5",
@@ -42,7 +42,7 @@ export const products = [
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
         image: ["board6.png", "boardH.png", "board6.png"],
-    },
+    },*/
 ];
 
 export const reviews = [

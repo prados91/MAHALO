@@ -1,14 +1,14 @@
 import React from 'react'
-import IndexItem from '../IndexItem/IndexItem';
+import Item from '../Item/Item';
 
-const IndexList = ({ productos }) => {
+const IndexList = ({ products }) => {
     return (
         <div className="container-fluid">
             <div className="row justify-content-center">
                 {
-                    productos.map((p) => {
+                    products.map((p) => {
                         return (
-                            <IndexItem
+                            <Item
                                 key={p.id}
                                 id={p.id}
                                 title={p.title}

@@ -3,21 +3,20 @@ import React from 'react'
 import Modal from '../Modal/Modal'
 import './Item.css'
 
-const Item = ({ id, title, image, imageH }) => {
-
-    const [isHovered, setIsHovered] = useState(false);
-    const [clicked, setClick] = useState(false)
+const Item = ({ id, title, image, card }) => {
 
     return (
+
         <div className="col-10 col-sm-6 col-md-6 col-lg-3 card-item-container">
             <div className="card card-custom" >
-                <img src={`/images/products/${image[0]}`} alt={title} className="card-img-top" />
+                <img src={`/images/products/${image}`}
+                    alt={title}
+                    className="card-img-top" />
                 <div className="card-body">
-                    <h5 className="card-title text-center">{title}</h5>
+                    <Modal card={card} title={title} />
                 </div>
             </div>
-                <Modal />
-        </div >
+        </div>
     )
 }
 

@@ -4,7 +4,8 @@ export const products = [
         title: "BalanceBoard 1",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
-        image: ["design1.jpg", "card1.jpg"],
+        image: "design1.jpg",
+        card: "card1.jpg",
     },
     {
         id: "2",
@@ -12,21 +13,24 @@ export const products = [
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
 
-        image: ["design2.jpg", "card2.jpg"],
+        image: "design2.jpg",
+        card: "card2.jpg",
     },
     {
         id: "3",
         title: "BalanceBoard 3",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
-        image: ["design3.jpg", "card3.jpg"],
+        image: "design3.jpg",
+        card: "card3.jpg",
     },
     {
         id: "4",
         title: "BalanceBoard 4",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
-        image: ["design4.jpg", "card4.jpg"],
+        image: "design4.jpg",
+        card: "card4.jpg",
     },
     /*
     {

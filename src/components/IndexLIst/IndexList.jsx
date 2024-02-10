@@ -13,6 +13,7 @@ const IndexList = ({ products }) => {
                                 id={p.id}
                                 title={p.title}
                                 image={p.image}
+                                card={p.card}
                             />
                         )
                     })

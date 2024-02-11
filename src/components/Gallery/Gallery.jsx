@@ -2,8 +2,6 @@ import { useState } from 'react'
 import './Gallery.css'
 import "react-image-gallery/styles/css/image-gallery.css"
 
-import { imageGallery } from '../../assets/db.js'
-
 const Gallery = ({ images }) => {
 
     const [activeIndex, setActiveIndex] = useState(0);

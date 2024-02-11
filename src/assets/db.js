@@ -4,7 +4,8 @@ export const products = [
         title: "BalanceBoard 1",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
-        image: ["board1.png", "boardH.png", "board1.png"],
+        image: "design1.jpg",
+        card: "card1.jpg",
     },
     {
         id: "2",
@@ -12,23 +13,26 @@ export const products = [
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
 
-        image: ["board2.png", "boardH.png", "board2.png"],
+        image: "design2.jpg",
+        card: "card2.jpg",
     },
     {
         id: "3",
         title: "BalanceBoard 3",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
-        image: ["board3.png", "boardH.png", "board3.png"],
+        image: "design3.jpg",
+        card: "card3.jpg",
     },
     {
         id: "4",
         title: "BalanceBoard 4",
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
-        image: ["board4.png", "boardH.png", "board4.png"],
+        image: "design4.jpg",
+        card: "card4.jpg",
     },
-
+    /*
     {
         id: "5",
         title: "BalanceBoard 5",
@@ -42,7 +46,7 @@ export const products = [
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
         image: ["board6.png", "boardH.png", "board6.png"],
-    },
+    },*/
 ];
 
 export const reviews = [
@@ -140,95 +144,35 @@ export const desingButtons = [
 
 export const phoneNumber = "5492233425634";
 
-export const imageGallery = [
-    {
-        original: "/images/gallery/0001.jpg",
-        thumbnail: "/images/gallery/0001.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px",
-    },
-    {
-        original: "/images/gallery/0002.jpg",
-        thumbnail: "/images/gallery/0002.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px",
-    },
-    {
-        original: "/images/gallery/0003.jpg",
-        thumbnail: "/images/gallery/0003.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px",
-    },
-    {
-        original: "/images/gallery/0004.jpg",
-        thumbnail: "/images/gallery/0004.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px",
-    },
-    {
-        original: "/images/gallery/0005.jpg",
-        thumbnail: "/images/gallery/0005.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px"
-    },
-    {
-        original: "/images/gallery/0006.jpg",
-        thumbnail: "/images/gallery/0006.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px"
-    },
-    {
-        original: "/images/gallery/0007.jpg",
-        thumbnail: "/images/gallery/0007.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px"
-    },
-    {
-        original: "/images/gallery/0008.jpg",
-        thumbnail: "/images/gallery/0008.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px"
-    },
-    {
-        original: "/images/gallery/0009.jpg",
-        thumbnail: "/images/gallery/0009.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px",
-    },
-    {
-        original: "/images/gallery/0010.jpg",
-        thumbnail: "/images/gallery/0010.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px",
-    },
-    {
-        original: "/images/gallery/0011.jpg",
-        thumbnail: "/images/gallery/0011.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px",
-    },
-    {
-        original: "/images/gallery/0012.jpg",
-        thumbnail: "/images/gallery/0012.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px",
-    },
-    {
-        original: "/images/gallery/0013.jpg",
-        thumbnail: "/images/gallery/0013.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px"
-    },
-    {
-        original: "/images/gallery/0014.jpg",
-        thumbnail: "/images/gallery/0014.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px"
-    },
-    {
-        original: "/images/gallery/0015.jpg",
-        thumbnail: "/images/gallery/0015.jpg",
-        thumbnailHeight: "50px",
-        thumbnailWidth: "75px"
-    },
+export const images = [
+    { id: 1, image: "0001.jpg" },
+    { id: 2, image: "0002.jpg" },
+    { id: 3, image: "0003.jpg" },
+    { id: 4, image: "0004.jpg" },
+    { id: 5, image: "0005.jpg" },
+    { id: 6, image: "0006.jpg" },
+    { id: 7, image: "0007.jpg" },
+    { id: 8, image: "0008.jpg" },
+    { id: 9, image: "0009.jpg" },
+    { id: 10, image: "0010.jpg" },
+    { id: 11, image: "0011.jpg" },
+    { id: 12, image: "0012.jpg" },
+    { id: 13, image: "0013.jpg" },
+    { id: 14, image: "0014.jpg" },
+    { id: 15, image: "0015.jpg" },
+    { id: 16, image: "0016.jpg" },
+    { id: 17, image: "0017.jpg" },
+    { id: 18, image: "0018.jpg" },
+    { id: 19, image: "0019.jpg" },
+    { id: 20, image: "0020.jpg" },
+    { id: 21, image: "0021.jpg" },
+    { id: 22, image: "0022.jpg" },
+    { id: 23, image: "0023.jpg" },
+    { id: 24, image: "0024.jpg" },
+    { id: 25, image: "0025.jpg" },
+    { id: 26, image: "0026.jpg" },
+    { id: 27, image: "0027.jpg" },
+    { id: 28, image: "0028.jpg" },
+    { id: 29, image: "0029.jpg" },
+    { id: 30, image: "0030.jpg" },
 ];

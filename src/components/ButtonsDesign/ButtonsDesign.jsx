@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  useState from 'react'
 import './ButtonsDesign.css'
 
 const ButtonsDesign = ({ id, title, image, imageH }) => {
@@ -17,3 +17,4 @@ const ButtonsDesign = ({ id, title, image, imageH }) => {
 }
 
 export default ButtonsDesign
+//<img src={`/images/logos/${image}`} alt={title} className="card-img-top" />

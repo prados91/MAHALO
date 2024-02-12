@@ -18,6 +18,9 @@ const Footer = () => {
                     <li>
                         223 342 5634
                     </li>
+                    <li>
+                        infomahalomdp@gmail.com
+                    </li>
                 </ul>
             </div>
             <div className={styles.section}>

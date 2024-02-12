@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  {useState} from 'react'
 import './ButtonsDesign.css'
 
 const ButtonsDesign = ({ id, title, image, imageH }) => {

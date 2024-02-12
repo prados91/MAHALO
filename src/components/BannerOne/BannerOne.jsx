@@ -1,6 +1,4 @@
-import React from "react";
 import "./BannerOne.css";
-
 import { phoneNumber } from "../../assets/db";
 
 const BannerOne = ({ greeting, subGreeting }) => {

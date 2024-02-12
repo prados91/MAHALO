@@ -2,6 +2,8 @@ import React from 'react'
 import { images } from '../../assets/db.js'
 import Gallery from '../Gallery/Gallery.jsx'
 import './GalleryContainer.css'
+import "react-image-gallery/styles/css/image-gallery.css"
+
 
 const GalleryContainer = () => {
 

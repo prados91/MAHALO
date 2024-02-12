@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Gallery.css'
+import "react-image-gallery/styles/css/image-gallery.css"
 
 const Gallery = ({ images }) => {
 

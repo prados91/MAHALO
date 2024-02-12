@@ -1,0 +1,62 @@
+.bg-image3 {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  background-image: url("/images/background/dasd.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end; 
+  background-position: right center;
+  overflow: hidden;
+}
+
+.contenedorTitulos3 {
+  max-width: 700px;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  color: black;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.contenedorTitulos3 p {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+.contenedorTitulos3 h2 {
+  font-size: 3.125rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .bg-image3 {
+    height: 70vh;
+    background-position: center;
+  }
+  .bg-image3::before {
+    content: "  ";
+    width: 100%;
+    background: linear-gradient(rgb(12, 12, 12), transparent 100%);
+  }
+
+  .contenedorTitulos3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contenedorTitulos3 h2 {
+    color: #ffffff;
+    font-weight: 700;
+  }
+  .contenedorTitulos3 p {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.875rem;
+  }
+}
+

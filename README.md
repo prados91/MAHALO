@@ -1,12 +1,22 @@
-# MAHALO
 
-Proyecto realizado como benefición del TOP10 de CoderHouse.
+# REACT - MAHALO
+## Proyecto realizado como benefición del TOP10 de CoderHouse.
 
-El objetivo fue mejorar la página de un emprendimiento de venta de tablas de balance.
+##OBJETIVO
+Mejorar la página de un emprendimiento de venta de tablas de balance realizada originalmente con Wixsite.
 
-La página original fue realizada con wixsite.
+## DESARROLLO DEL PROYECTO
 
-La web actualizada fue desarrollada en React-Vite y utilizando diferentes librerías. 
+Proyecto creado con: **[Create React Vite](https://vitejs.dev/)**. Instalación mediante comando NPM `npm create vite@latest`.
 
-Se siguieron los lineamientos de diseños y buen funcionamiento UX/UI.
+Generación de rutas de navegación mediante: **[React Router](https://reactrouter.com/en/main)**. Instalación mediante: `npm install react-router-dom`.
+
+Utilizacion de frameworks: **[React-Boostrap]**
+
+## Mapa del sitio
+![ReactTree](https://github.com/prados91/MAHALO/assets/106772696/2435f55d-39c1-448f-933f-e999e9018a80)
+
+
+## Test de Aplicación
+[WEB](https://mahalo-five.vercel.app/)
 

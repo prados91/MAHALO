@@ -8,7 +8,7 @@ import "./Index.css";
 
 const Index = ({ greeting, subGreeting }) => {
     const title = "Diseños hechos a mano"
-    const subtitle = "Utilizamos marcadores de acrilico para darle un estilo unico a cada tabla"
+    const subtitle = "Utilizamos marcadores de acrílico para darle un estilo único a cada tabla"
     return (
         <>
             <BannerOne greeting={greeting} subGreeting={subGreeting} />

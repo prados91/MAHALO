@@ -18,7 +18,7 @@ const IndexButtonsContainer = () => {
         <div className='indexbtn_container'>
             <h2 className='indexbtn_h2'>Junto a cualquiera de nuestros modelos!</h2>
             <IndexButtons />
-            <h2 className='indexbtn_h2'>¡O incluso, podes pedir tu tabla personalizada!</h2>
+            <h2 className='indexbtn_h2'>¡O incluso, pódes pedir tu tabla personalizada!</h2>
             <button className="index_btnMore" onClick={() => { sendToMobile() }}>
                 ¡Quiero mi tabla!
             </button>

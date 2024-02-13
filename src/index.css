@@ -49,6 +49,7 @@
 .routerLink {
     text-decoration: none;
     color: var(--bgBlack);
+    transition: color 0.5s ease, text-decoration 0.5s ease;
 }
 
 .routerLink:hover {

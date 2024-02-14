@@ -36,7 +36,7 @@ const Footer = () => {
             <div className={styles.sectionLinks}>
                 <h2 className={`${styles.footerTitle } ${styles.linkDiv}`}>Links</h2>
                 <Link onClick={handleScrollTo} className="routerLink" to="/about-us">Somos Mahalo</Link>
-                <Link onClick={handleScrollTo} className="routerLink" to="/gallery">Galeria</Link>
+                <Link onClick={handleScrollTo} className="routerLink" to="/gallery">Galería</Link>
                 <Link onClick={handleScrollTo} className="routerLink" to="/faqs">Preguntas frecuentes</Link>
             </div>
             <div className={styles.sectionContactanos}>

@@ -8,7 +8,7 @@ const IndexItemContainer = () => {
     return (
 
         <div className="container text-center d-flex flex-column align-items-center indexItemContainer-container">
-            <h2 className="titulo">¡Podes elegir de nuestros diseños!</h2>
+            <h2 className="titulo">¡Pódes elegir de nuestros diseños!</h2>
             <div className="row no-margin-row" >
                 <IndexList products={products} />
             </div>

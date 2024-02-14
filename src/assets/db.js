@@ -68,12 +68,12 @@ export const reviews = [
     {
         nombreUsuario: "Kiara",
         calificacion: 5,
-        review: "Excelente para fitness en casa, diversión y eficacia garantizadas..",
+        review: "Excelente para fitness en casa, diversión y eficacia garantizadas.",
     },
     {
         nombreUsuario: "Priscila",
         calificacion: 5,
-        review: "Fácil de usar, incluso para novatos; resultados notables.",
+        review: "Fácil de usar, incluso para novatos. Resultados notables.",
     },
 ];
 

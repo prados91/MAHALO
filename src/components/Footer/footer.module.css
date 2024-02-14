@@ -1,9 +1,8 @@
 .footer {
+    margin-top: 1.25rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
-    /* Cambia a flex-start para alinear a la izquierda */
     background-color: #ffffff;
     background-color: transparent;
     padding: 20px;
@@ -38,13 +37,25 @@
     padding: 0;
 }
 
-.section {
+.sectionContactanos {
     display: flex;
     flex-direction: column;
     padding: .9375rem;
+    padding-left: 1.25rem;
     margin: .9375rem;
-    align-items: flex-start;
+    max-width: 13.75rem;
 }
+
+.sectionLinks {
+    display: flex;
+    flex-direction: column;
+    padding: .9375rem;
+    padding-left: 0;
+    margin: .9375rem;
+    max-width: 13.75rem;
+}
+
+
 
 .card {
     width: fit-content;

@@ -6,8 +6,6 @@ import GalleryContainer from './components/GalleryContainer/GalleryContainer.jsx
 import Faqs from './components/Faqs/Faqs.jsx'
 import Footer from './components/Footer/Footer.jsx';
 
-/*import './App.css'*/
-
 function App() {
 
     return (

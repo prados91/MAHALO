@@ -23,6 +23,7 @@
     position: fixed;
     bottom: 150px;
     right: 25px;
+    z-index: 100;
 }
 
 .whatsapp-container {
@@ -49,6 +50,7 @@
 .routerLink {
     text-decoration: none;
     color: var(--bgBlack);
+    transition: color 0.5s ease, text-decoration 0.5s ease;
 }
 
 .routerLink:hover {

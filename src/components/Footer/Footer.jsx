@@ -7,9 +7,19 @@ const Footer = () => {
     const urlFace = "https://www.facebook.com/Mahaloaarg?view_public_for=103903104810380"
     const urlInst = "https://www.instagram.com/mahalo.mdp/"
     const urlWhatsapp = "https://api.whatsapp.com/send?phone=" + phoneNumber
+
+
+    const handleScrollTo = () => {
+        scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+        });
+    }
+
     return (
         <footer className={styles.footer}>
-            <div className={styles.section}>
+            <div className={styles.sectionContactanos}>
                 <h2 className={styles.footerTitle}>Contactanos</h2>
                 <ul className={styles.listFooter}>
                     <li>
@@ -23,13 +33,13 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
-            <div className={styles.section}>
-                <h2 className={styles.footerTitle}>Links</h2>
-                <Link className="routerLink" to="/about-us">Somos Mahalo</Link>
-                <Link className="routerLink" to="/category/balanceboard">Nuestra tienda</Link>
-                <Link className="routerLink" to="/faqs">Preguntas frecuentes</Link>
+            <div className={styles.sectionLinks}>
+                <h2 className={`${styles.footerTitle } ${styles.linkDiv}`}>Links</h2>
+                <Link onClick={handleScrollTo} className="routerLink" to="/about-us">Somos Mahalo</Link>
+                <Link onClick={handleScrollTo} className="routerLink" to="/gallery">Galería</Link>
+                <Link onClick={handleScrollTo} className="routerLink" to="/faqs">Preguntas frecuentes</Link>
             </div>
-            <div className={styles.section}>
+            <div className={styles.sectionContactanos}>
                 <p className={`${styles.footerTitle} ${styles.textCenter}`}>Nuestras Redes</p>
                 <div className={styles.card}>
                     <div className={styles.socialContainerGroup}>

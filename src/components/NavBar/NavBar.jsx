@@ -49,7 +49,7 @@ export default Navbar;
 
 */
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link, NavLink } from "react-router-dom";
 import navLogo from '/MahaloLogo.svg';
 import './NavBar.css';
@@ -62,6 +62,11 @@ const Navbar = () => {
     };
 
     const closeNav = () => {
+        scrollTo({
+            top:0,
+            left:0,
+            behavior:'smooth'
+        })
         setIsNavOpen(false);
     };
 

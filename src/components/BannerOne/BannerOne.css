@@ -31,7 +31,8 @@
 }
 
 .contenedorTitulos h1 {
-    font-size: 3.75rem;
+    font-size: 4.75rem;
+    text-decoration: underline;
 }
 
 .bannerOne_button {

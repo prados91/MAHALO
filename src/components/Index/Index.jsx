@@ -7,8 +7,8 @@ import IndexButtonsContainer from "../IndexButtonsContainer/IndexButtonsContaine
 import "./Index.css";
 
 const Index = ({ greeting, subGreeting }) => {
-    const title = "Diseños hechos a mano"
-    const subtitle = "Utilizamos marcadores de acrílico para darle un estilo único a cada tabla"
+    const title = "Tablas de equilibrio hechas a mano"
+    const subtitle = "Elegí el mejor diseño para vos!"
     return (
         <>
             <BannerOne greeting={greeting} subGreeting={subGreeting} />

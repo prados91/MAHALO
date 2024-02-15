@@ -24,6 +24,7 @@
     border-style: none;
     width: auto;
     color: var(--bgWhite);
+    font-size: 22px;
 }
 
 .index_btnMore:hover {

@@ -25,9 +25,9 @@ const Item = ({ id, title, image, card }) => {
                         nested
                         overlayStyle={{ background: 'rgba(0, 0, 0, 0.8)' }}
                         contentStyle={{
-                            width: '80%',
-                            maxWidth: '80%',
-                            height: '80%',
+                            width: '90%',
+                            maxWidth: '90%',
+                            height: '90%',
                             overflow: 'auto',
                             margin: 'auto',
                             display: 'flex',
@@ -37,10 +37,12 @@ const Item = ({ id, title, image, card }) => {
                         open={modalOpen}
                         onClick={toggleModal}
                     >
+
                         <div className="image-container">
+                            <img src={`/images/products/${card}`} alt={title} className="modal-image" onClick={toggleModal} />
                             <button className="close-button" onClick={toggleModal}>X</button>
-                            <img src={`/images/products/${card}`} alt={title} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} onClick={toggleModal} />
-                        </div></Popup>
+                        </div>
+                    </Popup>
                 </div>
             </div>
         </div>

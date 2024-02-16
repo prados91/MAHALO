@@ -22,7 +22,7 @@
   }
   
   .contenedorTitulos2 {
-    max-width: 400px; /* Cambiado a max-width para mejorar en dispositivos más pequeños */
+    max-width: 500px; /* Cambiado a max-width para mejorar en dispositivos más pequeños */
     width: 100%; /* Ajustado el ancho para ocupar el espacio disponible */
     padding: 20px; /* Añadido un relleno para mejorar el espacio alrededor del texto */
     position: relative;

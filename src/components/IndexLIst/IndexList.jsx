@@ -14,6 +14,7 @@ const IndexList = ({ products }) => {
                                 title={p.title}
                                 image={p.image}
                                 card={p.card}
+                                cardMobile={p.cardMobile}
                             />
                         )
                     })

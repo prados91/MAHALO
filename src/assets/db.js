@@ -1,52 +1,36 @@
 export const products = [
     {
         id: "1",
-        title: "BalanceBoard 1",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
+        title: "Square",
+        description: "SquareBoard",
         image: "design1.jpg",
         card: "card1.jpg",
+        cardMobile:"cardMobile1.jpg",
     },
     {
         id: "2",
-        title: "BalanceBoard 2",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
-
+        title: "Snow",
+        description: "SnowBoard",
         image: "design2.jpg",
         card: "card2.jpg",
+        cardMobile:"cardMobile2.jpg",
     },
     {
         id: "3",
-        title: "BalanceBoard 3",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
+        title: "Fish",
+        description: "FishBoard",
         image: "design3.jpg",
         card: "card3.jpg",
+        cardMobile:"cardMobile3.jpg",
     },
     {
         id: "4",
-        title: "BalanceBoard 4",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
+        title: "Rounded",
+        description: "RoundedBoard",
         image: "design4.jpg",
         card: "card4.jpg",
+        cardMobile:"cardMobile4.jpg",
     },
-    /*
-    {
-        id: "5",
-        title: "BalanceBoard 5",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
-        image: ["board5.png", "boardH.png", "board5.png"],
-    },
-    {
-        id: "6",
-        title: "BalanceBoard 6",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis quaerat vitae deserunt modi? Facere sapiente tenetur ipsa at, adipisci voluptate magni sunt deleniti culpa?",
-        image: ["board6.png", "boardH.png", "board6.png"],
-    },*/
 ];
 
 export const reviews = [
@@ -136,10 +120,9 @@ export const question = [
 
 export const desingButtons = [
     { id: 1, title: "FISH", image: "Fish.svg", imageH: "fish.png" },
-    { id: 2, title: "FLAT", image: "Flat.svg", imageH: "flat.png" },
-    { id: 3, title: "ROUNDED", image: "Rounded.svg", imageH: "table.png" },
-    { id: 4, title: "SNOW", image: "Snow.svg", imageH: "snow.png" },
-    { id: 5, title: "SQUARE", image: "Square.svg", imageH: "square.png" },
+    { id: 2, title: "ROUNDED", image: "Rounded.svg", imageH: "table.png" },
+    { id: 3, title: "SNOW", image: "Snow.svg", imageH: "snow.png" },
+    { id: 4, title: "SQUARE", image: "Square.svg", imageH: "square.png" },
 ];
 
 export const phoneNumber = "5492233425634";

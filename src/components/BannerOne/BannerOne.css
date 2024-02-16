@@ -43,6 +43,7 @@
     font-weight: 600;
     border-radius: 0.5rem;
     transition: background-color var(--trTime) ease;
+    color: black;
 }
 
 .bannerOne_button:hover {

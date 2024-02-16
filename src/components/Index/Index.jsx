@@ -1,4 +1,3 @@
-import React from "react";
 import BannerOne from "../BannerOne/BannerOne";
 import BannerTwo from "../BannerTwo/BannerTwo";
 import IndexItemContainer from "../IndexItemContainer/IndexItemContainer";

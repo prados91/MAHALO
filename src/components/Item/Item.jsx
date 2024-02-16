@@ -20,7 +20,7 @@ const Item = ({ id, title, image, card }) => {
                 />
                 <div className="card-body">
                     <Popup
-                        trigger={<button type='button' className="popup_btn btn">{title}</button>}
+                        trigger={<button type='button' className="popup_btn btn"><strong>{title}</strong></button>}
                         modal
                         nested
                         overlayStyle={{ background: 'rgba(0, 0, 0, 0.8)' }}

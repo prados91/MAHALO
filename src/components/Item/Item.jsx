@@ -1,13 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Popup from 'reactjs-popup';
 import './Item.css';
 
-const Item = ({ id, title, image, card }) => {
+const Item = ({ id, title, image, card, cardMobile }) => {
     const [modalOpen, setModalOpen] = useState(false);
 
     const toggleModal = () => {
         setModalOpen(!modalOpen); // Toggle entre true y false
     };
+
+    const [isMobile, setMobile] = useState(window.innerWidth < 768);
+
+    const handleResize = () => {
+        setMobile(window.innerWidth < 768);
+    };
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     return (
         <div className="col-10 col-sm-6 col-md-6 col-lg-3 card-item-container">
@@ -39,8 +52,10 @@ const Item = ({ id, title, image, card }) => {
                     >
 
                         <div className="image-container">
-                            <img src={`/images/products/${card}`} alt={title} className="modal-image" onClick={toggleModal} />
                             <button className="close-button" onClick={toggleModal}>X</button>
+                            {!isMobile ?
+                                <img src={`/images/products/${card}`} alt={title} className="modal-image" onClick={toggleModal} />
+                                : <img src={`/images/products/${cardMobile}`} alt={title} className="modal-image" onClick={toggleModal} />}
                         </div>
                     </Popup>
                 </div>

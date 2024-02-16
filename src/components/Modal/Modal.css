@@ -1,0 +1,14 @@
+.btn.popup_btn {
+    background: transparent;
+    font-size: 16px;
+    color: var(--bgBlack);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color var(--trTime) ease, text-decoration var(--trTime) ease;
+}
+
+.btn.popup_btn:hover {
+    color: var(--bgOrange);
+    text-decoration: underline;
+}

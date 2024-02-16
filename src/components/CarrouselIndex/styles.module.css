@@ -1,0 +1,33 @@
+/* styles.module.css */
+
+.carouselContainer {
+    margin-top: 6.25rem;
+    margin-bottom: 3.125rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    max-width: 70%;
+  }
+  
+
+  .carouselImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    /* Media query para pantallas más pequeñas */
+    .carousel {
+      max-height: 80vh; /* Altura máxima en pantallas más pequeñas */
+    }
+  
+    .carouselContainer {
+        margin-top: 3.125rem;
+        margin-bottom: 0;
+        position: relative;
+        max-width: 100%;
+    }
+  }
+  

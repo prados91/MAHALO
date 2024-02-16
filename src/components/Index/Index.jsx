@@ -3,6 +3,7 @@ import BannerTwo from "../BannerTwo/BannerTwo";
 import IndexItemContainer from "../IndexItemContainer/IndexItemContainer";
 import ReviewCardCointaner from "../ReviewCardContainer/ReviewCardCointaner";
 import IndexButtonsContainer from "../IndexButtonsContainer/IndexButtonsContainer";
+import CarrouselIndex from "../CarrouselIndex/CarrouselIndex.jsx";
 import "./Index.css";
 
 const Index = ({ greeting, subGreeting }) => {
@@ -15,6 +16,7 @@ const Index = ({ greeting, subGreeting }) => {
             <IndexItemContainer />
             <IndexButtonsContainer />
             <ReviewCardCointaner />
+            <CarrouselIndex />
         </>
     );
 };

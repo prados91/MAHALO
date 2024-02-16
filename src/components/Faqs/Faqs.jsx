@@ -5,7 +5,7 @@ import './Faqs.css'
 const Faqs = () => {
 
     return (
-        < div className="container-fluid faqs_container">
+        < main className="container-fluid faqs_container">
             <div className='accordion_container'>
                 <div className="accordion" id="accordionPanelsStayOpenExample">
                     {question.map((item) => (
@@ -34,7 +34,7 @@ const Faqs = () => {
                     ))}
                 </div>
             </div>
-        </div >
+        </main >
     )
 }
 

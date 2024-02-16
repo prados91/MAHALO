@@ -5,6 +5,7 @@ import ReviewCardCointaner from "../ReviewCardContainer/ReviewCardCointaner";
 import IndexButtonsContainer from "../IndexButtonsContainer/IndexButtonsContainer";
 import CarrouselIndex from "../CarrouselIndex/CarrouselIndex.jsx";
 import "./Index.css";
+import BannerFooter from "../BannerFooter/BannerFooter.jsx";
 
 const Index = ({ greeting, subGreeting }) => {
     const title = "Tablas de equilibrio hechas a mano"
@@ -16,7 +17,7 @@ const Index = ({ greeting, subGreeting }) => {
             <IndexItemContainer />
             <IndexButtonsContainer />
             <ReviewCardCointaner />
-            <CarrouselIndex />
+            <BannerFooter />
         </>
     );
 };

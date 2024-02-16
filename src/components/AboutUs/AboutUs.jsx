@@ -3,7 +3,7 @@ import "./AboutUs.css";
 
 const AboutUs = () => {
     return (
-        <div className="about_container">
+        <main className="about_container">
             <BannerThree />
             <section className="textoContainer">
                 <div className="primeraSeccion">
@@ -60,7 +60,7 @@ const AboutUs = () => {
                     </p>
                 </div>
             </section>
-        </div>
+        </main>
     );
 };
 

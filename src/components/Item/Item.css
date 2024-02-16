@@ -1,75 +1,54 @@
-.card-custom {
+.itemCard-custom {
     max-width: 16rem;
     margin: 0 auto;
     background-color: var(--background);
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
     transition: 0.3s;
     text-align: center;
     justify-content: center;
     transition: transform var(--trTime) ease;
 }
 
-/*
-.card-custom:hover {
-    transform: scale(1.3);
-}*/
 
-.card-custom:hover {
+.itemCard-custom:hover {
     transform: scale(1.1);
 }
 
-.card-img-top {
+.itemCard-img-top {
     max-width: 100%;
     height: auto;
 }
 
-.card-item-container {
-    margin-bottom: 50px;
-}
-
-.image-container {
-    display: flex;
+.itemImage-container {
     position: relative;
 }
 
-.modal-image {
+.itemModal-image {
     width: 85%;
     height: auto;
     max-width: 85%;
     max-height: 85%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
-.close-button {
+.itemClose-button {
     position: absolute;
     top: 5px;
     right: 50px;
     background: transparent;
     border: none;
-    color: var(--bgOrange);
+    color: var(--bgWhite);
     font-size: 20px;
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-
-    .close-button {
-        top: 10px;
-        right: 10px;
-        font-size: 16px;
-    }
-    .modal-image {
-        width: 100%;
-        max-width: 100%;
-        max-height: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .close-button {
+@media (max-width: 425px) {
+    .itemClose-button {
         display: none;
     }
-    .modal-image {
+
+    .itemModal-image {
         width: 100%;
         max-width: 100%;
         max-height: 100%;

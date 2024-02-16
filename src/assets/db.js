@@ -5,7 +5,7 @@ export const products = [
         description: "SquareBoard",
         image: "design1.jpg",
         card: "card1.jpg",
-        cardMobile:"",
+        cardMobile:"cardMobile1.jpg",
     },
     {
         id: "2",
@@ -13,7 +13,7 @@ export const products = [
         description: "SnowBoard",
         image: "design2.jpg",
         card: "card2.jpg",
-        cardMobile:"",
+        cardMobile:"cardMobile2.jpg",
     },
     {
         id: "3",
@@ -21,7 +21,7 @@ export const products = [
         description: "FishBoard",
         image: "design3.jpg",
         card: "card3.jpg",
-        cardMobile:"",
+        cardMobile:"cardMobile3.jpg",
     },
     {
         id: "4",
@@ -29,7 +29,7 @@ export const products = [
         description: "RoundedBoard",
         image: "design4.jpg",
         card: "card4.jpg",
-        cardMobile:"",
+        cardMobile:"cardMobile4.jpg",
     },
 ];
 

@@ -5,9 +5,9 @@ import Index from '../Index/Index.jsx'
 const IndexContainer = ({ greeting , subGreeting}) => {
 
     return (
-        <div className="indexContainer__container">
+        <main className="indexContainer__container">
             <Index greeting={greeting} subGreeting={subGreeting}/>
-        </div>
+        </main>
     )
 }
 

@@ -2,7 +2,16 @@ import React, { useState, useEffect } from 'react';
 import Popup from 'reactjs-popup';
 import './Item.css';
 
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+
 const Item = ({ id, title, image, card, cardMobile }) => {
+
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+
     const [modalOpen, setModalOpen] = useState(false);
 
     const toggleModal = () => {
@@ -23,24 +32,24 @@ const Item = ({ id, title, image, card, cardMobile }) => {
     }, []);
 
     return (
-        <div className="col-10 col-sm-6 col-md-6 col-lg-3 card-item-container">
-            <div className="card card-custom">
+        <div className="col-10 col-sm-6 col-md-6 col-lg-3 g-4">
+            <div className="card itemCard-custom">
                 <img
                     src={`/images/products/${image}`}
                     alt={title}
-                    className="card-img-top"
+                    className="itemCard-img-top"
                     onClick={toggleModal} // Usando toggleModal para abrir/cerrar el modal
                 />
                 <div className="card-body">
                     <Popup
-                        trigger={<button type='button' className="popup_btn btn"><strong>{title}</strong></button>}
+                        trigger={<button type='button' className="btn"><strong>{title}</strong></button>}
                         modal
                         nested
                         overlayStyle={{ background: 'rgba(0, 0, 0, 0.8)' }}
                         contentStyle={{
-                            width: '90%',
-                            maxWidth: '90%',
-                            height: '90%',
+                            width: '80%',
+                            maxWidth: '100%',
+                            height: '100%',
                             overflow: 'auto',
                             margin: 'auto',
                             display: 'flex',
@@ -50,12 +59,11 @@ const Item = ({ id, title, image, card, cardMobile }) => {
                         open={modalOpen}
                         onClick={toggleModal}
                     >
-
-                        <div className="image-container">
-                            <button className="close-button" onClick={toggleModal}>X</button>
+                        <div className="itemImage-container">
+                            <button className="itemClose-button" onClick={toggleModal}>X</button>
                             {!isMobile ?
-                                <img src={`/images/products/${card}`} alt={title} className="modal-image" onClick={toggleModal} />
-                                : <img src={`/images/products/${cardMobile}`} alt={title} className="modal-image" onClick={toggleModal} />}
+                                <img src={`/images/products/${card}`} alt={title} className="itemModal-image" onClick={toggleModal} />
+                                : <img src={`/images/products/${cardMobile}`} alt={title} className="itemModal-image" onClick={toggleModal} />}
                         </div>
                     </Popup>
                 </div>
